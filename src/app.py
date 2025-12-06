@@ -9,7 +9,7 @@ crime_df=pd.read_csv('chicago_crime.csv')
 
 # Creata the application
 app=dash.Dash(__name__)
-
+server = app.server
 # The application layout
 app.layout=html.Div([
     html.H1('Chicago Crime Dashboard', style={'textAlign':'center','font-size':30}),
