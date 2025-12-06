@@ -71,4 +71,4 @@ def update_graph(selected_crime,selected_agg):
 
 # Run Server
 if __name__=='__main__':
-    app.run(port=8051)
+    app.run_server(debug=True)
