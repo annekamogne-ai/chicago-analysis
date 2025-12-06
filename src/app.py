@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 from dash import dcc,html
 
 # Load the dataset
-crime_df=pd.read_csv('chicago_crime.csv')
+crime_df=pd.read_csv('data/chicago_crime.csv')
 
 # Creata the application
 app=dash.Dash(__name__)
